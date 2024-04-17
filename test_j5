@@ -34,7 +34,7 @@ else:
 div = soup.find_all('div', {"class": "entry-content"})
 print(div[0])
 
-
+# ищем блок с артиклем заголовком и ссылкой
 arts = soup.find_all('article', {"class": "post"})
 if arts:
     for article in arts:
